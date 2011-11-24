@@ -14,6 +14,7 @@ More details on Gaussian Process regression can be found in the open-source book
   <url>http://ros.org/wiki/gaussian_process</url>
 
   <rosdep name="libgsl"/>
+  <rosdep name="libatlas"/>
 
   <export>
     <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -lgaussian_process -lgsl  -lgslcblas -Wl,-rpath,${prefix}/lib"/>
