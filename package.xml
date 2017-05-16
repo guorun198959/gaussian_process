@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>gaussian_process</name>
+  <version>0.0.0</version>
+  <description>An implementation of Gaussian Process regression.</description>
+  <maintainer email="sturm@informatik.uni-freiburg.de">Juergen Sturm</maintainer>
+  <license>LGPL</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>libgsl</build_depend>
+  <build_depend>atlas</build_depend>
+    
+  <run_depend>libgsl</run_depend>
+  <run_depend>atlas</run_depend>
+</package>
